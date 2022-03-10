@@ -1,0 +1,551 @@
+/* MOBILE CSS */
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: start;
+  }
+
+  .container-fluid {
+    padding: 0 20px !important;
+  }
+
+  .navbar .main-logo-svg {
+    max-width: 125px !important;
+  }
+
+  .search-sidebar .result-result .search-text {
+    margin-left: 0 !important;
+  }
+
+  .search-sidebar .result-result .search-image {
+    margin-bottom: 10px;
+  }
+
+  .search-form input[type="text"] {
+    margin-bottom: 10px !important;
+  }
+
+  .form-section {
+    padding: 10px 0px 10px 0px !important;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .select-rfqs-section {
+    padding: 100px !important;
+  }
+
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form textarea,
+  .signup-form .select-box {
+    margin: 10px 0 !important;
+  }
+
+  .form-section .form-check {
+    margin-top: 20px;
+  }
+
+  .form-section,
+  .form-section-radio {
+    padding: 20px !important;
+  }
+
+  .form-group {
+    margin: 10px 0;
+  }
+
+  .form-section-radio .form-group {
+    margin: 10px 0;
+  }
+
+  .form-section-radio legend,
+  .form-section-radio h6 {
+    text-align: center;
+  }
+
+  .dashboard-main {
+    padding: 20px 20px !important;
+    justify-content: space-between;
+  }
+}
+
+/* MOBILE AND TABLE END */
+
+/* MOBILE ONLY START */
+
+@media (max-width: 767px) {
+  .membership h1 {
+    font-size: 45px !important;
+  }
+
+  .membership h2 {
+    padding: 0 !important;
+  }
+
+  .step {
+    margin: 0 25px !important;
+  }
+
+  .step::after {
+    width: 46px !important;
+  }
+
+  #cargo-details .un-class {
+    padding: 20px !important;
+  }
+
+  .select-rfqs-section {
+    padding: 65px !important;
+  }
+
+  .select-rfqs {
+    margin: 20px 0;
+  }
+}
+
+/* MOBILE CSS */
+
+/* TABLET CSS */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+/* TABLET CSS END */
+
+/* LAPTOPS CSS */
+
+@media (max-width: 1024px) {
+  #cargo-details .un-class {
+    width: 100% !important;
+  }
+}
+
+/* LAPTOP CSS END */
+
+a:hover {
+  color: #014987;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: gilroymedium;
+  src: url(../vendor/fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../vendor/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: gilroyLight;
+  src: url(../vendor/fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: gilroysemibold;
+  src: url(../vendor/fonts/Gilroy-SemiBold.ttf);
+}
+
+body {
+  background-image: linear-gradient(45deg, #002c54, #042849);
+  font-family: gilroymedium;
+}
+
+/* MAIN MENU */
+
+.dashboard-main {
+  padding: 10px 60px;
+}
+
+/* MAIN MENU END */
+
+.back-to-login i {
+  padding-right: 10px;
+}
+
+.back-to-login p {
+  margin-bottom: 0;
+}
+
+.back-to-login a {
+  color: white;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background: #0778bd;
+  padding: 100px 0;
+  color: #ffff;
+}
+
+footer .footer-first h5:nth-child(1),
+footer .footer-second h5:nth-child(1),
+footer .footer-third h5:nth-child(1) {
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+footer .footer-second ul,
+footer .footer-third ul {
+  padding-left: 0;
+}
+
+footer .footer-second ul li,
+footer .footer-third ul li {
+  list-style: none;
+  line-height: 2.5;
+  color: #ffff;
+}
+
+footer .footer-second ul li a,
+footer .footer-third ul li a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.footer-third ul li i {
+  margin-right: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* SIGNUP */
+
+.membership {
+  text-align: center;
+  color: #ffff;
+}
+
+.membership h1 {
+  font-size: 70px;
+}
+
+.membership h2 {
+  color: #ffff;
+  letter-spacing: 0.9px;
+  margin: 30px 0;
+  font-size: 22px;
+  padding: 0 200px;
+  text-align: center;
+  font-family: myFirstFont;
+}
+
+.membership h1,
+.membership h5 {
+  font-weight: bold;
+}
+
+.form-section,
+.form-section-radio,
+.select-rfqs-section {
+  border-radius: 15px;
+  padding: 40px 40px 30px 40px;
+  margin: 50px 0;
+  background-image: linear-gradient(45deg, #003868, #024f92);
+}
+
+.form-section h4,
+.form-section-radio h4 {
+  color: #ffff;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.form-section h3 {
+  color: #ffff;
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+.form-section p {
+  color: #ffff;
+  margin: 0;
+}
+
+.form-section-radio legend,
+.form-section-radio h6 {
+  color: #ffff;
+  letter-spacing: 0.72px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.form-section-radio a {
+  font-weight: bold;
+  color: #ffff;
+}
+.form-section a {
+  float: right;
+  text-decoration: none;
+  color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 50%;
+  padding: 1px 8px;
+}
+
+.form-section-radio .radio-browse .custom-upload {
+  color: #ffff;
+  direction: rtl;
+  letter-spacing: 0.72px;
+}
+
+.form-section-radio .radio-browse input[type="date"],
+.form-section-radio .radio-browse input[type="text"] {
+  border-radius: 10px;
+  background: #ffff;
+  padding: 5px 10px;
+  border: none;
+  width: 50%;
+  margin-bottom: 20px;
+  margin: 0 0;
+}
+
+.form-section-radio .radio-browse .custom-upload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.form-section-radio .radio-browse .custom-upload::before {
+  content: "Browse";
+  display: inline-block;
+  text-decoration: underline;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form textarea:focus,
+.signup-form .select-box:focus {
+  outline: none;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form textarea,
+.signup-form .select-box {
+  border-radius: 10px;
+  background: #ffff;
+  padding: 15px 0 15px 10px;
+  border: none;
+  margin: 0 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="text"]::placeholder,
+.signup-form input[type="email"]::placeholder,
+.signup-form textarea::placeholder,
+.signup-form .select-box option,
+.signup-form .select-box {
+  color: #014a8a;
+
+  font-size: 15px;
+}
+
+/* .signup-form input[type="submit"] {
+  border-radius: 5px;
+  background: #0a7ce4;
+  padding: 10px 15px;
+  border: none;
+  font-size: 13px;
+  color: #ffff;
+} */
+
+.form-check {
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.form-check label {
+  color: #ffff;
+  letter-spacing: 0.72px;
+}
+
+.round-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.save-btn {
+  margin-bottom: 50px;
+  text-align: end;
+  color: #0684d1;
+}
+
+.save-btn input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid #0684d1;
+  color: #0684d1;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+.radio-btn {
+  display: flex;
+}
+.radio-browse {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CREATE RFQS CSS NEW */
+
+.select-rfqs-section {
+  padding: 180px;
+}
+
+.select-rfqs {
+  text-align: center;
+}
+
+.select-rfqs img {
+  max-width: 100%;
+  width: 250px;
+  padding: 50px;
+  border: 1px solid #0574d4;
+  border-radius: 10px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+#cargo-details input.invalid,
+#cargo-details select.invalid {
+  border: 2px solid red !important;
+}
+
+#cargo-details input.valid,
+#cargo-details select.valid {
+  background-color: #ffff !important;
+}
+
+/* Hide all steps by default: */
+#cargo-details .tab {
+  display: none;
+}
+
+#cargo-details h3 {
+  font-size: 22px;
+  background: linear-gradient(92deg, #0773cf, #0472d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0;
+}
+
+#cargo-details .shipment-hr {
+  background: #0773cf;
+  opacity: 1;
+  padding: 0 20px;
+  height: 2px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cargo-details .un-class {
+  width: 60%;
+  padding: 100px;
+  max-width: 100%;
+  margin: auto;
+}
+
+#cargo-details .un-class .msds-upload {
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  padding: 60px 0;
+  margin: 15px 0;
+  text-align: center;
+}
+#cargo-details .un-class .msds-upload label {
+  color: #ffff;
+}
+
+#cargo-details button {
+  background-color: transparent;
+  border: 1px solid #0684d1;
+  color: #0684d1;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 50px;
+  border-radius: 3px;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  width: 33px;
+  font-size: 20px;
+  margin: 0 70px;
+  background-color: transparent;
+  border: 1px solid #71bdff;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+  position: relative;
+  color: #0684d1;
+}
+
+.step::after {
+  content: "";
+  width: 137px;
+  height: 2px;
+  background: #ffff;
+  position: absolute;
+  left: 35px;
+  top: 14px;
+}
+
+.step:last-child::after {
+  content: none;
+  width: 100%;
+  height: 2px;
+  background: #ffff;
+  position: absolute;
+  left: 62px;
+  top: 28px;
+}
+
+.step.active {
+  opacity: 1;
+  background: #0684d1;
+  color: #000000;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #ffff;
+}
+
+.request-data {
+  color: #ffff;
+  border-bottom: 2px solid#0773cf;
+}
+
+.request-data:last-child {
+  border-bottom: none;
+}
+
+.request-data p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.request-data h3 {
+  font-size: 20px;
+}
